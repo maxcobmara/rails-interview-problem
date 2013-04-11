@@ -9,12 +9,13 @@ gem 'bootstrap-will_paginate', '0.0.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec'
   gem 'annotate', '2.5.0'
+  gem 'sqlite3'
 end
 
 
