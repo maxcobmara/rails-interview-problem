@@ -36,11 +36,12 @@ Send us a pull request
 	Pagination & Order
 	
 	Set Feed auto import with whenever gem, *whenever gem doesnt work in heroku reverting to code instead*
+	Created custom rake task to work with Heroku Scheduler
+	Setup Heroku
 
 ## To Do
 	
 	Sanitize feed
-	Setup Heroku
 	
 ## Might Do
 	User Model for Commenting System
