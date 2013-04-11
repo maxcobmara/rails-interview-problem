@@ -1,6 +1,6 @@
 # SLA Mobile
 
-## Rails developer aplplication problem
+## Rails developer application problem
 
 
 Fork this repository and build an app that does the following:
@@ -28,16 +28,16 @@ Send us a pull request
 
 
 #Done
- bootstrap
- feedzirra
- basic layout
- manual feed import
- JQuery Ajax Title Expansion
+ 	bootstrap
+ 	feedzirra
+ 	basic layout
+ 	manual feed import
+ 	JQuery Ajax expanding title
+  Pagination & Order
 
 ## To Do
-	Pagination & Order
+  Set Feed auto import with whenever gem
 	Sanitize feed
-	Set Feed auto import with whenever gem
 	Setup Heroku
 	
 ## Might Do

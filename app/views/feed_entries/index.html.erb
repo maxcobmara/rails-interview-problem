@@ -1,5 +1,6 @@
 <H1>Feed Burner</H1>
 
+<%= will_paginate %>
 <ol class="feed">
 <% @feed_entries.each do |feed_entry| %>
 			<li>
@@ -17,6 +18,7 @@
 			</li>
 <% end %>
 </ol>
+<%= will_paginate %>
 
 <script type="text/javascript">
 $(document).ready(function(){
