@@ -35,7 +35,6 @@ Send us a pull request
  JQuery Ajax Title Expansion
 
 ## To Do
-	
 	Pagination & Order
 	Sanitize feed
 	Set Feed auto import with whenever gem
@@ -44,5 +43,6 @@ Send us a pull request
 ## Might Do
 	User Model for Commenting System
 	Commenting System
+	Write Tests
 	
 	
