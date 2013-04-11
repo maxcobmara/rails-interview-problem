@@ -3,15 +3,28 @@
 <ol class="feed">
 <% @feed_entries.each do |feed_entry| %>
 			<li>
-			<%= link_to "#{feed_entry.name}", "#{feed_entry.url}" %>
-			<span class="content"><%= feed_entry.summary %></span>
-			<span class="timestamp">
-		    Posted <%= time_ago_in_words(feed_entry.published_at) %> ago at <%= feed_entry.published_at.strftime('%H:%m %d %B %Y') %>
-		  </span>
-			
-			</li>
-    <td></td>
+				<div>
+					<span class="toga"><h4><%= feed_entry.name%></h4></span>
+					<div style="display:none;">
+						<span class="content"><%= feed_entry.summary %></span>
+						<div class="timestamp">
+							<div class="row">
+					  		<div class="span9">Posted <%= time_ago_in_words(feed_entry.published_at) %> ago at <%= feed_entry.published_at.strftime('%H:%m %d %B %Y') %></div>
+								<div class="span2" style="text-align:right;"><%= link_to "read source", "#{feed_entry.url}" %></div>
+							</div><BR/>
+					</div>
 
-  </tr>
+			</li>
 <% end %>
 </ol>
+
+<script type="text/javascript">
+$(document).ready(function(){
+		//show submit date
+		 $('.toga').click(function() { 
+		    $(this).parent().contents().filter(
+		        function() {  return this.nodeType == 3; }).wrap('<span></span>');//wrap any stray text nodes
+		    $(this).siblings().toggle(); 
+		});
+});
+</script>

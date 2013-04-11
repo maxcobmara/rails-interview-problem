@@ -32,9 +32,10 @@ Send us a pull request
  feedzirra
  basic layout
  manual feed import
+ JQuery Ajax Title Expansion
 
 ## To Do
-	JQuery Ajax Title Expansion
+	
 	Pagination & Order
 	Sanitize feed
 	Set Feed auto import with whenever gem
