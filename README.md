@@ -33,10 +33,12 @@ Send us a pull request
  	basic layout
  	manual feed import
  	JQuery Ajax expanding title
-  Pagination & Order
+	Pagination & Order
+	
+	Set Feed auto import with whenever gem, *whenever gem doesnt work in heroku reverting to code instead*
 
 ## To Do
-  Set Feed auto import with whenever gem
+	
 	Sanitize feed
 	Setup Heroku
 	
