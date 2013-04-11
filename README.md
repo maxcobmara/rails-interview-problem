@@ -25,3 +25,23 @@ You'll get bonus points for adding the ability to comment on stories
 Upload your app to Heroku so we can see it running
 
 Send us a pull request
+
+
+#Done
+ bootstrap
+ feedzirra
+ basic layout
+ manual feed import
+
+## To Do
+	JQuery Ajax Title Expansion
+	Pagination & Order
+	Sanitize feed
+	Set Feed auto import with whenever gem
+	Setup Heroku
+	
+## Might Do
+	User Model for Commenting System
+	Commenting System
+	
+	

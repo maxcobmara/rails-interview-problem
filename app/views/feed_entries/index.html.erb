@@ -1,0 +1,17 @@
+<H1>Feed Burner</H1>
+
+<ol class="feed">
+<% @feed_entries.each do |feed_entry| %>
+			<li>
+			<%= link_to "#{feed_entry.name}", "#{feed_entry.url}" %>
+			<span class="content"><%= feed_entry.summary %></span>
+			<span class="timestamp">
+		    Posted <%= time_ago_in_words(feed_entry.published_at) %> ago at <%= feed_entry.published_at.strftime('%H:%m %d %B %Y') %>
+		  </span>
+			
+			</li>
+    <td></td>
+
+  </tr>
+<% end %>
+</ol>

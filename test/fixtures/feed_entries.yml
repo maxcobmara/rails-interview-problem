@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: feed_entries
+#
+#  id           :integer          not null, primary key
+#  name         :string(255)
+#  summary      :text
+#  url          :string(255)
+#  published_at :datetime
+#  guid         :string(255)
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  summary: MyText
+  url: MyString
+  published_at: 2013-04-11 13:58:10
+  guid: MyString
+
+two:
+  name: MyString
+  summary: MyText
+  url: MyString
+  published_at: 2013-04-11 13:58:10
+  guid: MyString
