@@ -28,6 +28,8 @@ Send us a pull request
 
 
 #Done
+see at [Rails developer application problem](http://peaceful-beyond-8907.herokuapp.com)
+
  	bootstrap
  	feedzirra
  	basic layout
@@ -38,7 +40,6 @@ Send us a pull request
 	Set Feed auto import with whenever gem, *whenever gem doesnt work in heroku reverting to code instead*
 	Created custom rake task to work with Heroku Scheduler
 	Setup Heroku
-	[Stack Overflow](http://peaceful-beyond-8907.herokuapp.com)
 
 
 ## To Do
