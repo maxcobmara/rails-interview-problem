@@ -40,6 +40,7 @@ see at [Rails developer application problem](http://peaceful-beyond-8907.herokua
 	Set Feed auto import with whenever gem, *whenever gem doesnt work in heroku reverting to code instead*
 	Created custom rake task to work with Heroku Scheduler
 	Setup Heroku
+	Added Commenting System via Disqus
 
 
 ## To Do
@@ -47,8 +48,6 @@ see at [Rails developer application problem](http://peaceful-beyond-8907.herokua
 	Sanitize feed
 	
 ## Might Do
-	User Model for Commenting System
-	Commenting System
 	Write Tests
 	
 	
