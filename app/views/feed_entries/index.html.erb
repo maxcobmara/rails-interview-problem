@@ -4,7 +4,7 @@
 <ol class="feed">
 <% @feed_entries.each do |feed_entry| %>
 			<li>
-				<div>
+				<div class="this-is-single-post-wrapper">
 					<span class="toga"><h4><%= feed_entry.name%>  <!--<div style="float:right;"><i class="icon-chevron-down"></i></div>--></h4> </span>
 					<div style="display:none;">
 						<span class="content"><%= feed_entry.summary %></span>
@@ -13,22 +13,6 @@
 					  		<div class="span9">Posted <%= time_ago_in_words(feed_entry.published_at) %> ago at <%= feed_entry.published_at.strftime('%H:%m %d %B %Y') %></div>
 								<div class="span2" style="text-align:right;"><%= link_to "read source", "#{feed_entry.url}" %></div>
 							</div><BR/>
-							<!--Disqus-->
-							<div id="disqus_thread"></div>
-							    <script type="text/javascript">
-							        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-							        var disqus_shortname = 'rt-rails'; // required: replace example with your forum shortname
-
-							        /* * * DON'T EDIT BELOW THIS LINE * * */
-							        (function() {
-							            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-							            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-							            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-							        })();
-							    </script>
-							    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-							    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-							
 							
 							
 					</div>

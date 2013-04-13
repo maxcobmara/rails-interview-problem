@@ -9,4 +9,7 @@ class FeedEntriesController < ApplicationController
       format.json { render json: @feed_entries }
     end
   end
+  
+  def comments
+  end
 end
